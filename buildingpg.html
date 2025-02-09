@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+  
+  <header>
+    <div class="container">
+      <nav class="navbar fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="./index.html">
+            <img class="logo-pic" src="./images/logo.svg" alt="This is Deluxe company logo image">
+          </a>
+          <ul class="header-nav navbar-nav flex-row column-gap-5 pe-3">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Услуги
+              </a>
+              <ul class="dropdown-menu position-absolute">
+                <li><a class="dropdown-item" href="#">Купить</a></li>
+                <li><a class="dropdown-item" href="#">Арендовать</a></li>
+                <li><a class="dropdown-item" href="#">Продать</a></li>
+                <li><a class="dropdown-item" href="#">Оценка недвижимости</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">О нас</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Блог</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Контакты</a>
+            </li>
+          </ul>
+          <div class="hamburger-box d-flex align-items-center column-gap-1">
+            <img class="header-icons" src="./images/search.svg" alt="This is search icon image" width="40"
+            height="40">
+            <img class="header-icons" src="./images/like.svg" alt="This is like icon image" width="40"
+            height="40">
+            <img class="header-call" src="./images/call.svg" alt="This is call icon image" width="40"
+            height="40">
+            <div class="header-dropdown dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Ru
+              </button>
+              <ul class="dropdown-menu">
+                <li class="dropdown-items"><a class="dropdown-item" href="#">RU</a></li>
+                <li class="dropdown-items"><a class="dropdown-item" href="#">UZ</a></li>
+                <li class="dropdown-items"><a class="dropdown-item" href="#">EN</a></li>
+              </ul>
+            </div>
+            <button class="navbar-toggler d-flex justify-content-center align-items-center bg-dark rounded-circle" style="width: 40px; height: 40px;" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+              <img src="./images/hamburger-icon.svg" alt="This is hamburger-icon image">
+            </button>
+          </div>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header d-flex justify-content-between">
+              <a class="offcanvas-title" href="./index.html" id="offcanvasNavbarLabel">
+                <img class="logo-pic" src="./images/logo.svg" alt="">
+              </a>
+              <div class="hamburger-box d-flex align-items-center">
+                <div class="dropdown">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Ru
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-items"><a class="dropdown-item" href="#">RU</a></li>
+                    <li class="dropdown-items"><a class="dropdown-item" href="#">UZ</a></li>
+                    <li class="dropdown-items"><a class="dropdown-item" href="#">EN</a></li>
+                  </ul>
+                </div>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Услуги
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Купить</a></li>
+                    <li><a class="dropdown-item" href="#">Арендовать</a></li>
+                    <li><a class="dropdown-item" href="#">Продать</a></li>
+                    <li><a class="dropdown-item" href="#">Оценка недвижимости</a></li>
+                  </ul>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">О нас</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Блог</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Контакты</a>
+                  </li>
+                </li>
+              </ul>
+              <div class="header-pic-box d-flex column-gap-2">
+                <img class="header-icon" src="./images/search.svg" alt="This is search icon image">
+                <img class="header-icon" src="./images/like.svg" alt="This is like icon image">
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  
+  
+  <main class="site-main">
+    <section class="hero">
+      <div class="container">
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./images/header_image.png" class="hero__rasim d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/header_image.png" class="hero__rasim d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/header_image.png" class="hero__rasim d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        
+        <ul class="hero__list list-unstyled d-flex" style="column-gap: 30px; margin-top: 40px;">
+          <li class="hero__item">
+            <a href="./buildingpg.html" class="hero__link text-decoration-none text-secondary">О компании</a>
+          </li>
+          
+          <li class="hero__item">
+            <a href="./buildingpg.html" class="hero__link text-decoration-none text-dark">Галерея</a>
+          </li>
+          
+          <li class="hero__item">
+            <a href="./buildingpg.html" class="hero__link text-decoration-none text-dark">Планировки</a>
+          </li>
+
+          <li class="hero__item">
+            <a href="./buildingpg.html" class="hero__link text-decoration-none text-dark">Условия покупки</a>
+          </li>
+
+          <li class="hero__item">
+            <a href="./buildingpg.html" class="hero__link text-decoration-none text-dark">Инфраструктура</a>
+          </li>
+
+          <li class="hero__item">
+            <a href="./buildingpg.html" class="hero__link text-decoration-none text-dark">Отзывы</a>
+          </li>
+        </ul>
+        <div class="gh d-flex">
+          <span class="lina">
+            <img src="./images/Rectangle 4.svg" alt="" class="lina__pic">
+          </span>
+          <span class="gg"></span>
+        </div>
+      </div>
+    </section>
+    
+    <section class="infiniti">
+      <div class="container">
+        <div class="infiniti__wrapper">
+          <h1 class="infiniti__text" style="font-size: 35px; margin-top: 102px;">
+            Infinity <br> Клубный дом
+          </h1>
+          <a href="./buildingpg.html" class="infiniti__link">Позвонить</a>
+          
+          <div class="infiniti__box">
+            <img src="./images/imag_main.png" alt="" class="infiniti__pic mt-5">
+            <p class="infinite__deck" style="font-size: 15px; ">
+              Дом имеет свой приватный, закрытый двор, с несколькими зонами отдыха для взрослых и детей. Отдельно предусмотрено помещение для консьержа и охраны. Из окон квартир открывается вид на эксклюзивный ландшафтный двор-парк общей площадью более 1 Га, с прогулочными аллеями, водными объектами и летним кинотеатром.
+            </p>
+          </div>
+          
+          <div class="foto__box" style="margin-top: 180px; font-size: 30px;">
+            <h1 class="foto__text">
+              Фотогалерея и <br> видеотуры
+            </h1>
+            <div class="foto__images d-flex column-gap-2">
+              <img src="./images/image_maintwo.png" alt="" class="foto__pic">
+              <img src="./images/Rectangle 56.png" alt="" class="foto__picc">
+            </div>
+            <a href="./buildingpg.html" class="foto__link text-white">Посмотреть всё</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="plan">
+      <div class="container">
+        <div class="plan__wrapper">
+          <h1 class="plan__text" style="font-size: 30px; margin-top: 180px;">
+            Планировки и <br> доступные квартиры
+          </h1>
+          
+          <div class="plan__box">
+            <div class="box__on d-flex flex-wrap column-gap-2">
+              <div class="dropdown mt-4">
+                <button class="plan__button btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Этаж 
+                </button>
+                <ul class="dropdown-menu">
+                  <!-- <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                </ul>
+              </div>
+              
+              <div class="box__two">
+                <div class="dropdown mt-4">
+                  <button class="plan__button btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Цена
+                  </button>
+                  <ul class="dropdown-menu">
+                    <!-- <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                  </ul>
+                </div>
+              </div>
+              
+              <div class="dropdown mt-2">
+                <button class="plan__button btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Количество комнат
+                </button>
+                <ul class="dropdown-menu">
+                  <!-- <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                </ul>
+              </div>
+            </div>
+          </div>
+          <ul class="plan__title list-unstyled mt-3">
+            <li class="plan__list">
+              <img src="./images/plan 1.png" alt="" class="plan__pic">
+              <h3 class="plan__nmadr" style="font-size: 20px; margin-top: 16px;">3-я квартира в ЖК Infinity</h3>
+              <div class="etaj d-flex justify-content-between mt-3">
+                <p class="etaj__p text-info">Этаж</p>
+                <p class="etaj__number text-info">4</p>
+              </div>
+              <div class="etaj d-flex justify-content-between">
+                <p class="etaj__p text-info">Дом</p>
+                <p class="etaj__number text-info">8</p>
+              </div>
+              <div class="etaj d-flex justify-content-between">
+                <p class="etaj__p text-info">Подъезд</p>
+                <p class="etaj__number text-info">8</p>
+              </div>
+              <div class="etaj d-flex justify-content-between">
+                <p class="etaj__p text-info">Комнат</p>
+                <p class="etaj__number text-info">3</p>
+              </div>
+              <hr>
+              <p class="link__plan text-secondary" style="font-size: 20px;">$600 000</p>
+            </li>
+          </ul>
+          
+          <ul class="plan__title list-unstyled mt-3">
+            <li class="plan__list">
+              <img src="./images/plan 2.png" alt="" class="plan__pic">
+              <h3 class="plan__nmadr" style="font-size: 20px; margin-top: 16px;">3-я квартира в ЖК Infinity</h3>
+              <div class="etaj d-flex justify-content-between mt-3">
+                <p class="etaj__p text-info">Этаж</p>
+                <p class="etaj__number text-info">4</p>
+              </div>
+              <div class="etaj d-flex justify-content-between">
+                <p class="etaj__p text-info">Дом</p>
+                <p class="etaj__number text-info">8</p>
+              </div>
+              <div class="etaj d-flex justify-content-between">
+                <p class="etaj__p text-info">Подъезд</p>
+                <p class="etaj__number text-info">8</p>
+              </div>
+              <div class="etaj d-flex justify-content-between">
+                <p class="etaj__p text-info">Комнат</p>
+                <p class="etaj__number text-info">3</p>
+              </div>
+              <hr>
+              <p class="link__plan text-secondary" style="font-size: 20px;">$800 000</p>
+            </li>
+          </ul>
+          
+          <ul class="plan__title list-unstyled mt-3">
+            <li class="plan__list">
+              <img src="./images/plan 3.png" alt="" class="plan__pic">
+              <h3 class="plan__nmadr" style="font-size: 20px; margin-top: 16px;">3-я квартира в ЖК Infinity</h3>
+              <div class="etaj d-flex justify-content-between mt-3">
+                <p class="etaj__p text-info">Этаж</p>
+                <p class="etaj__number text-info">4</p>
+              </div>
+              <div class="etaj d-flex justify-content-between">
+                <p class="etaj__p text-info">Дом</p>
+                <p class="etaj__number text-info">8</p>
+              </div>
+              <div class="etaj d-flex justify-content-between">
+                <p class="etaj__p text-info">Подъезд</p>
+                <p class="etaj__number text-info">8</p>
+              </div>
+              <div class="etaj d-flex justify-content-between">
+                <p class="etaj__p text-info">Комнат</p>
+                <p class="etaj__number text-info">3</p>
+              </div>
+              <hr>
+              <p class="link__plan text-secondary" style="font-size: 20px;">$500 000</p>
+            </li>
+          </ul>
+          
+          <ul class="plan__title list-unstyled mt-3">
+            <li class="plan__list">
+              <img src="./images/plan 4.png" alt="" class="plan__pic">
+              <h3 class="plan__nmadr" style="font-size: 20px; margin-top: 16px;">3-я квартира в ЖК Infinity</h3>
+              <div class="etaj d-flex justify-content-between mt-3">
+                <p class="etaj__p text-info">Этаж</p>
+                <p class="etaj__number text-info">4</p>
+              </div>
+              <div class="etaj d-flex justify-content-between">
+                <p class="etaj__p text-info">Дом</p>
+                <p class="etaj__number text-info">8</p>
+              </div>
+              <div class="etaj d-flex justify-content-between">
+                <p class="etaj__p text-info">Подъезд</p>
+                <p class="etaj__number text-info">8</p>
+              </div>
+              <div class="etaj d-flex justify-content-between">
+                <p class="etaj__p text-info">Комнат</p>
+                <p class="etaj__number text-info">3</p>
+              </div>
+              <hr>
+              <p class="link__plan text-secondary" style="font-size: 20px;">$250 000</p>
+            </li>
+          </ul>
+          <a href="" class="plan__linkk">Загрузить все</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="sotibolish">
+    <div class="container">
+      <div class="sotibolish__wrapper">
+        <h1 class="sotbolish__text" style="font-size: 30px; margin-left: 16px; margin-top: 180px;">
+          Условия покупки
+        </h1>
+        <p class="sotbolish__deck" style="margin-left: 16px;">
+          Процесс покупки недвижимости в нашем агентстве разработан таким образом, чтобы обеспечить максимальное удобство и прозрачность для наших клиентов
+        </p>
+        <hr style="margin-top: 40px;">
+        
+        <h2 class="sotbolish__text mt-4" style="font-size: 20px; margin-left: 16px;">
+          Условия покупки
+        </h2>
+        <p class="sotbolish__deck" style="margin-left: 16px;">
+          Физ.лицам: паспорт, ИНН
+          Юр.лицам: учредительные документы, доверенность
+        </p>
+        <hr style="margin-top: 24px;">
+        
+        <h2 class="sotbolish__text mt-4" style="font-size: 20px; margin-left: 16px;">
+          Финансовые условия
+        </h2>
+        <p class="sotbolish__deck" style="margin-left: 16px;">
+          
+          Способы оплаты: наличные, банковский <br> перевод, ипотека <br>
+          Доп.расходы: налоги, комиссия агентства, нотариальные услуги
+        </p>
+        <hr style="margin-top: 24px;">
+        
+        <h2 class="sotbolish__text mt-4" style="font-size: 20px; margin-left: 16px;">
+          Ипотека и кредитование
+        </h2>
+        <p class="sotbolish__deck" style="margin-left: 16px;">
+          Варианты ипотеки <br>
+          Сотрудничающие банки
+        </p>
+        <hr style="margin-top: 24px;">
+        
+        <h2 class="sotbolish__text mt-4" style="font-size: 20px; margin-left: 16px;">
+          Условия возврата и расторжения
+        </h2>
+        <p class="sotbolish__deck" style="margin-left: 16px;">
+          Порядок расторжения договора <br>
+          Условия возврата средств (если применимо)
+        </p>
+        <hr style="margin-top: 24px;">
+      </div>
+    </div>
+  </section>
+  
+  <section class="rayon">
+    <div class="container">
+      <div class="rayon__wrapper" style="margin-left: 16px; margin-top: 180px;">
+        <h1 class="rayon__text" style="font-size: 30px; ">
+          Инфраструктура района
+        </h1>
+        
+        <img src="./images/rayon img.png" alt="" class="rayon__image mt-4">
+        
+        <ul class="rayon__list list-unstyled d-flex" style="column-gap: 30px; margin-top: 40px;">
+          <li class="rayon__item">
+            <a href="./buildingpg.html" class="hero__link text-decoration-none text-secondary">Магазины</a>
+          </li>
+          
+          <li class="rayon__item">
+            <a href="./buildingpg.html" class="hero__link text-decoration-none text-dark">Транспорт</a>
+          </li>
+          
+          <li class="rayon__item">
+            <a href="./buildingpg.html" class="hero__link text-decoration-none text-dark">Школы</a>
+          </li>
+        </ul>
+        <div class="gh d-flex">
+          <span class="lina">
+            <img src="./images/Rectangle 4.svg" alt="" class="lina__pic" style="margin-top: 1px;">
+          </span>
+          <span class="gg"></span>
+        </div>
+        
+        <p class="rayon__deck mt-3">
+          Наш район предлагает широкий выбор магазинов, чтобы удовлетворить любые потребности. В пешей доступности расположены крупные супермаркеты и продуктовые магазины, где вы всегда найдете свежие продукты и товары повседневного спроса
+        </p>
+        
+        <ul class="rayon__toplam list-unstyled d-flex flex-wrap justify-content-between" style="width: 220px; margin-top: 40px; row-gap: 30px;">
+          <li class="rayon__joy">
+            <h2 class="rayon__joy-nom" style="font-size: 22px;">
+              Korzinka
+            </h2>
+            <p class="rayon__joy-vaqt text-info">
+              5 минут
+            </p>
+          </li>
+          
+          <li class="rayon__joy">
+            <h2 class="rayon__joy-nom" style="font-size: 22px;">
+              Havas
+            </h2>
+            <p class="rayon__joy-vaqt text-info">
+              10 минут
+            </p>
+          </li>
+          
+          <li class="rayon__joy">
+            <h2 class="rayon__joy-nom" style="font-size: 22px;">
+              FixPrice
+            </h2>
+            <p class="rayon__joy-vaqt text-info">
+              Рядом
+            </p>
+          </li>
+          
+          <li class="rayon__joy">
+            <h2 class="rayon__joy-nom" style="font-size: 22px;">
+              REDTAG
+            </h2>
+            <p class="rayon__joy-vaqt text-info">
+              25 минут
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  
+  <section class="sharxlar">
+    <div class="container">
+      <div class="sharxlar__wrapper" style="margin-left: 16px;">
+        <h1 class="sharxlar__text" style="margin-top: 180px;">
+          Отзывы покупателей
+        </h1>
+        
+        <ul class="sharxlar__item list-unstyled mt-3">
+          <li class="sharxlar__list">
+            <p class="sharxlar__sana text-info">
+              01.08.2024
+            </p>
+            <h2 class="sharxlar__ism" style="font-size: 20px;">
+              Иванов Иван Иванович
+            </h2>
+            
+            <p class="sharxlar__malumot">
+              Живу в ЖК Infinity уже несколько месяцев и абсолютно доволен своим выбором. Комплекс расположен в тихом районе, но при этом в шаговой доступности от всех необходимых магазинов и кафе. Квартира просторная, с современным ремонтом, а территория комплекса ухоженная и безопасная. Особенно нравится, что есть детская площадка и зона для отдыха, где мы проводим время с семьей. Рекомендую всем, кто ищет комфортное жилье!
+            </p>
+          </li>
+          
+          <li class="sharxlar__list">
+            <p class="sharxlar__sana text-info">
+              01.08.2024
+            </p>
+            <h2 class="sharxlar__ism" style="font-size: 20px;">
+              Иванов Иван Иванович
+            </h2>
+            
+            <p class="sharxlar__malumot">
+              Живу в ЖК Infinity уже несколько месяцев и абсолютно доволен своим выбором. Комплекс расположен в тихом районе, но при этом в шаговой доступности от всех необходимых магазинов и кафе. Квартира просторная, с современным ремонтом, а территория комплекса ухоженная и безопасная. Особенно нравится, что есть детская площадка и зона для отдыха, где мы проводим время с семьей. Рекомендую всем, кто ищет комфортное жилье!
+            </p>
+          </li>
+          
+          <li class="sharxlar__list">
+            <p class="sharxlar__sana text-info">
+              01.08.2024
+            </p>
+            <h2 class="sharxlar__ism" style="font-size: 20px;">
+              Иванов Иван Иванович
+            </h2>
+            
+            <p class="sharxlar__malumot">
+              Живу в ЖК Infinity уже несколько месяцев и абсолютно доволен своим выбором. Комплекс расположен в тихом районе, но при этом в шаговой доступности от всех необходимых магазинов и кафе. Квартира просторная, с современным ремонтом, а территория комплекса ухоженная и безопасная. Особенно нравится, что есть детская площадка и зона для отдыха, где мы проводим время с семьей. Рекомендую всем, кто ищет комфортное жилье!
+            </p>
+          </li>
+        </ul>
+        <a href="" class="sharxlar__link">Все отзывы</a>
+      </div>
+    </div>
+  </section>
+  
+  <section class="sotb-olish">
+    <div class="container">
+      <div class="sobt-olish__wrapper" style="margin-left: 16px;">
+        <h1 class="sotb-olish" style="font-size: 30px; margin-top: 180px;">
+          Рассчитайте ипотеку
+        </h1>
+        
+        <form action="" class="sotb-olish__form mt-5">
+          <p class="sotb-olish__deck text-info">
+            Стоимость недвижимости (у.е.)
+          </p>
+          <input type="text" class="sotb-olish__input mt-2" placeholder="Введите стоимость">
+          
+          <p class="sotb-olish__deck text-info" style="margin-top: 20px;">
+            Первоначальный взнос (у.е.)
+          </p>
+          <input type="text" class="sotb-olish__input mt-2" placeholder="Введите размер взноса">
+          
+          <p class="sotb-olish__deck text-info" style="margin-top: 20px;">
+            Срок в годах
+          </p>
+          <input type="text" class="sotb-olish__input mt-2" placeholder="Введите срок">
+          
+          <p class="sotb-olish__deck text-info" style="margin-top: 20px;">
+            Ставка (%)
+          </p>
+          <input type="text" class="sotb-olish__input mt-2" placeholder="Введите размер ставки">
+          
+          <a href="" class="sotb-olish__link">Рассчитать</a>
+          
+          <hr class="sotb-olish text-info mt-5">
+          
+          <p class="sotb-olish__deck m-0 text-info">
+            Ежемесячный платеж
+          </p>
+          <h1 class="sotb-olish__text mt-2" style="font-size: 22px;">
+            4 410 у.е.
+          </h1>
+          
+          <p class="sotb-olish__deck m-0 mt-4 text-info">
+            Сумма кредита
+          </p>
+          <h1 class="sotb-olish__text mt-2" style="font-size: 22px;">
+            200 000 у.е.
+          </h1>
+          
+          <p class="sotb-olish__deck m-0 mt-4 text-info">
+            Процентная ставка
+          </p>
+          <h1 class="sotb-olish__text mt-2" style="font-size: 22px;">
+            24%
+          </h1>
+          
+          <p class="sotb-olish__deck m-0 mt-4 text-info">
+            Дата последнего платежа
+          </p>
+          <h1 class="sotb-olish__text mt-2" style="font-size: 22px;">
+            28 июля 2034 г
+          </h1>
+        </form>
+      </div>
+    </div>
+  </section>
+  
+  <section class="uy-olish">
+    <div class="container">
+      <div class="uy-olish__wrapper" style="margin-left: 16px; margin-top: 180px;">
+        <h1 class="uy-olish" style="font-size: 30px;">
+          Процесс покупки недвижимости
+        </h1>
+        
+        <div class="uy-olish__box d-flex">
+          <div class="uy-olish__image">
+            <img src="./images/lina.svg" alt="" class="uy-olish__pic" style="margin-top: 61px;">
+          </div>
+          
+          <div class="uy-olish__gg position-relative">
+            <p class="uy-olish__deck position-absolute">
+              01
+            </p>
+            
+            <h2 class="uy-olish__fgh" style="font-size: 22px;">
+              Консультация и подбор объекта
+            </h2>
+            <p class="uy-olish__information text-info">
+              Организуем просмотры объектов и помогаем вам оценить их преимущества и недостатки
+            </p>
+
+            <p class="uy-olish__deckk position-absolute">
+              02
+            </p>
+            
+            <h2 class="uy-olish__fgh j" style="font-size: 22px;">
+              Юридическое сопровождение
+            </h2>
+            <p class="uy-olish__information i text-info">
+              Обеспечение соблюдения законодательства и защиты интересов клиента
+            </p>
+
+            <p class="uy-olish__deckk h position-absolute">
+              03
+            </p>
+            
+            <h2 class="uy-olish__fgh q" style="font-size: 22px;">
+              Оформление сделки
+            </h2>
+            <p class="uy-olish__information m text-info">
+              Подготовка и подписание всех необходимых документов. Осуществление  оплаты
+            </p>
+
+            <p class="uy-olish__deckk u position-absolute">
+              04
+            </p>
+            
+            <h2 class="uy-olish__fgh g" style="font-size: 22px;">
+              Услуги по управлению недвижимостью
+            </h2>
+            <p class="uy-olish__information s text-info">
+              Наши специалисты обеспечат полный спектр услуг по управлению вашим объектом
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="boglanish">
+    <div class="container">
+      <div class="boglanish__wrapper">
+        <div class="boglanish__box">
+          <img src="./images/Photo.png" alt="" class="boglanish__pic">
+          <p class="boglanish__text" style="font-size: 30px; line-height: 38px; font-weight: 500; margin-left: 16px; margin-top: 25px;    ">
+            Остались вопросы? Свяжитесь с нами
+          </p>
+
+          <form action="" class="boglanish__form">
+            <input type="text" class="boglanish__input" placeholder="ФИО">
+
+            <input type="text" class="boglanish__input" placeholder="Номер телефона">
+
+            <input type="text" class="boglanish__input" placeholder="E-mail">
+
+            <input type="text" class="boglanish__input" placeholder="Ваш вопрос">
+          </form>
+
+          <a href="" class="boglanish__link">Отправить</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="boshqa">
+    <div class="container">
+      <div class="boshqa__wrapper" style="margin-top: 180px; margin-left: 16px;">
+        <h1 class="boshqa__text" style="font-size: 30px;">
+          Другие ЖК
+        </h1>
+
+        <ul class="boshqa__item list-unstyled">
+          <li class="boshqa__list">
+            <img src="./images/Building 3.png" alt="" class="boshqa__pic">
+          </li>
+
+          <li class="boshqa__list">
+            <img src="./images/Building 2.png" alt="" class="boshqa__pic">
+          </li>
+
+          <li class="boshqa__list">
+            <img src="./images/Building 1.png" alt="" class="boshqa__pic">
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
