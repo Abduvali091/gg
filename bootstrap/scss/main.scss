@@ -319,11 +319,11 @@ $dark: #858585;
     width: 328px;
     height: 200px;
   }
-
+  
   .boshqa__pic {
     width: 328px;
   }
-
+  
   .header-icons {
     display: block;
   }
@@ -331,23 +331,18 @@ $dark: #858585;
   .header-icon {
     display: none;
   }
-
+  
   .logo-pic {
     width: 142px;
     height: 48px;
   }
-
+  
   .hero__list {
     overflow-x: scroll;
-    width: 700px;
+    // width: 700px;
   }
   
 }
-
-
-
-
-
 
 @media only screen and (min-width: 280px) {
   
@@ -371,7 +366,6 @@ $dark: #858585;
     display: none;
   }
 }
-
 
 @media only screen and (min-width: 992px) {
   
@@ -400,4 +394,180 @@ $dark: #858585;
     display: none !important;
   }
   
+}
+
+@media only screen and (min-width: 400px) {
+  .gg {
+    display: inline-block;
+    border: 1px solid #8585853f;
+    width: 300px;
+    height: 1px;
+    background-color:#8585853f ;
+  }
+  
+  .infiniti__pic {
+    width: 380px;
+  }
+  
+  .infinite__deck {
+    margin-top: 15px;
+  }
+  
+  
+  .foto__pic {
+    width: 300px;
+  }
+
+  .foto__picc {
+    width: 70px;
+  }
+
+  .lk {
+    margin-top: 15px;
+  }
+
+  .plan__title {
+    width: 380px;
+  }
+
+  .rayon__image {
+    width: 350px;
+  }
+
+  .j {
+    top: 215px;
+  }
+  
+  .i {
+    top: 220px;
+  }
+  
+  .h {
+    top: 500px;
+  }
+  
+  .q {
+    top: 350px;
+  }
+  
+  .m {
+    top: 360px;
+  }
+  
+  .u {
+    top: 720px;
+  }
+  
+  .g {
+    top: 470px;
+  }
+  
+  .s {
+    top: 480px;
+  }
+
+  .boglanish__box {
+    width: 380px;
+  }
+
+  .boglanish__pic {
+    width: 380px;
+  }
+
+  .boshqa__pic {
+    width: 380px;
+  }
+}
+
+@media only screen and (min-width: 440px) {
+  .gg {
+    display: inline-block;
+    border: 1px solid #8585853f;
+    width: 340px;
+    height: 1px;
+    background-color:#8585853f ;
+  }
+  
+  .infiniti__pic {
+    width: 420px;
+  }
+  
+  .infinite__deck {
+    margin-top: 15px;
+  }
+  
+  
+  .foto__pic {
+    width: 330px;
+  }
+
+  .foto__picc {
+    width: 90px;
+  }
+
+  .foto__link {
+    margin-left: 100px;
+  }
+
+  .lk {
+    margin-top: 15px;
+  }
+
+  .plan__title {
+    width: 420px;
+  }
+
+  .rayon__image {
+    width: 390px;
+  }
+
+  .j {
+    top: 215px;
+  }
+  
+  .i {
+    top: 220px;
+  }
+  
+  .h {
+    top: 500px;
+  }
+  
+  .q {
+    top: 350px;
+  }
+  
+  .m {
+    top: 360px;
+  }
+  
+  .u {
+    top: 720px;
+  }
+  
+  .g {
+    top: 470px;
+  }
+  
+  .s {
+    top: 480px;
+  }
+
+  .boglanish__box {
+    width: 420px;
+  }
+
+  .boglanish__pic {
+    width: 420px;
+  }
+
+  .boshqa__pic {
+    width: 400px;
+  }
+
+  .boglanish__input {
+    width: 370px;
+    height: 47px;
+  }
+
 }
