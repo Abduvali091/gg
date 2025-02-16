@@ -344,6 +344,141 @@ $dark: #858585;
   
 }
 
+@media only screen and (min-width: 320px) {
+  
+  .plan__pic {
+    width: 220px;
+    height: 256px;
+  }
+  
+  .hero__rasim {
+    width: 360px;
+    
+    padding: 40px 16px;
+    gap: 30px;
+  }
+  
+  .infiniti__pic {
+    width: 328px;
+  }
+  
+  .foto__pic {
+    width: 290px;
+  }
+  
+  .foto__picc {
+    width: 50px;
+  }
+  
+  .rayon__image {
+    width: 328px;
+  }
+  
+  .boglanish__pic {
+    width: 328px;
+    height: 200px;
+  }
+  
+  .boshqa__pic {
+    width: 328px;
+  }
+  
+  .header-icons {
+    display: block;
+  }
+  
+  .header-icon {
+    display: none;
+  }
+  
+  .logo-pic {
+    width: 142px;
+    height: 48px;
+  }
+  
+  .hero__list {
+    overflow-x: scroll;
+    // width: 700px;
+  }
+  
+}
+
+@media only screen and (min-width: 280px) {
+  
+  .plan__pic {
+    width: 110px;
+    height: 256px;
+    margin-left: 80px;
+  }
+  
+  .hero__rasim {
+    width: 250px;
+    
+    padding: 40px 16px;
+    gap: 30px;
+  }
+  
+  .infiniti__pic {
+    width: 328px;
+  }
+  
+  .foto__pic {
+    width: 290px;
+  }
+  
+  .foto__picc {
+    width: 50px;
+  }
+  
+  .rayon__image {
+    width: 328px;
+  }
+  
+  .boglanish__pic {
+    width: 328px;
+    height: 200px;
+  }
+  
+  .boshqa__pic {
+    width: 328px;
+  }
+  
+  .header-icons {
+    display: block;
+  }
+  
+  .header-icon {
+    display: none;
+  }
+  
+  .logo-pic {
+    width: 142px;
+    height: 48px;
+  }
+  
+  .hero__list {
+    overflow-x: scroll;
+    // width: 700px;
+  }
+
+  .gg {
+    display: inline-block;
+    border: 1px solid #8585853f;
+    width: 270px;
+    height: 1px;
+    background-color:#8585853f ;
+  }
+
+  .sotb-olish__input {
+    display: flex;
+    border: 1px solid #EAEAEA;
+    width: 220px;
+    height: 47px;
+    padding: 12px 16px;
+  }
+  
+}
+
 @media only screen and (min-width: 280px) {
   
   .header-nav {
@@ -397,6 +532,15 @@ $dark: #858585;
 }
 
 @media only screen and (min-width: 400px) {
+  
+  .sotb-olish__input {
+    display: flex;
+    border: 1px solid #EAEAEA;
+    width: 330px;
+    height: 47px;
+    padding: 12px 16px;
+  }
+  
   .gg {
     display: inline-block;
     border: 1px solid #8585853f;
@@ -417,23 +561,23 @@ $dark: #858585;
   .foto__pic {
     width: 300px;
   }
-
+  
   .foto__picc {
     width: 70px;
   }
-
+  
   .lk {
     margin-top: 15px;
   }
-
+  
   .plan__title {
     width: 380px;
   }
-
+  
   .rayon__image {
     width: 350px;
   }
-
+  
   .j {
     top: 215px;
   }
@@ -465,15 +609,15 @@ $dark: #858585;
   .s {
     top: 480px;
   }
-
+  
   .boglanish__box {
     width: 380px;
   }
-
+  
   .boglanish__pic {
     width: 380px;
   }
-
+  
   .boshqa__pic {
     width: 380px;
   }
@@ -500,23 +644,23 @@ $dark: #858585;
   .foto__pic {
     width: 300px;
   }
-
+  
   .foto__picc {
     width: 70px;
   }
-
+  
   .lk {
     margin-top: 15px;
   }
-
+  
   .plan__title {
     width: 380px;
   }
-
+  
   .rayon__image {
     width: 350px;
   }
-
+  
   .j {
     top: 215px;
   }
@@ -548,21 +692,30 @@ $dark: #858585;
   .s {
     top: 480px;
   }
-
+  
   .boglanish__box {
     width: 380px;
   }
-
+  
   .boglanish__pic {
     width: 380px;
   }
-
+  
   .boshqa__pic {
     width: 380px;
   }
 }
 
 @media only screen and (min-width: 440px) {
+  
+  .sotb-olish__input {
+    display: flex;
+    border: 1px solid #EAEAEA;
+    width: 360px;
+    height: 47px;
+    padding: 12px 16px;
+  }
+  
   .gg {
     display: inline-block;
     border: 1px solid #8585853f;
@@ -583,27 +736,27 @@ $dark: #858585;
   .foto__pic {
     width: 330px;
   }
-
+  
   .foto__picc {
     width: 90px;
   }
-
+  
   .foto__link {
     margin-left: 100px;
   }
-
+  
   .lk {
     margin-top: 15px;
   }
-
+  
   .plan__title {
     width: 420px;
   }
-
+  
   .rayon__image {
     width: 390px;
   }
-
+  
   .j {
     top: 215px;
   }
@@ -635,22 +788,4113 @@ $dark: #858585;
   .s {
     top: 480px;
   }
-
+  
   .boglanish__box {
     width: 420px;
   }
-
+  
   .boglanish__pic {
     width: 420px;
   }
-
+  
   .boshqa__pic {
     width: 380px;
   }
-
+  
   .boglanish__input {
     width: 370px;
     height: 47px;
+  }
+  
+}
+
+@media only screen and (min-width: 480px) {
+  
+  .sotb-olish__input {
+    display: flex;
+    border: 1px solid #EAEAEA;
+    width: 400px;
+    height: 47px;
+    padding: 12px 16px;
+  }
+  
+  .gg {
+    display: inline-block;
+    border: 1px solid #8585853f;
+    width: 380px;
+    height: 1px;
+    background-color:#8585853f ;
+  }
+  
+  .infiniti__pic {
+    width: 460px;
+  }
+  
+  .infinite__deck {
+    margin-top: 15px;
+  }
+  
+  
+  .foto__pic {
+    width: 370px;
+  }
+  
+  .foto__picc {
+    width: 90px;
+  }
+  
+  .foto__link {
+    margin-left: 100px;
+  }
+  
+  .lk {
+    margin-top: 15px;
+  }
+  
+  .plan__title {
+    width: 460px;
+  }
+  
+  .rayon__image {
+    width: 430px;
+  }
+  
+  .j {
+    top: 215px;
+  }
+  
+  .i {
+    top: 220px;
+  }
+  
+  .h {
+    top: 500px;
+  }
+  
+  .q {
+    top: 350px;
+  }
+  
+  .m {
+    top: 360px;
+  }
+  
+  .u {
+    top: 720px;
+  }
+  
+  .g {
+    top: 470px;
+  }
+  
+  .s {
+    top: 480px;
+  }
+  
+  .boglanish__box {
+    width: 460px;
+  }
+  
+  .boglanish__pic {
+    width: 460px;
+  }
+  
+  .boshqa__pic {
+    width: 450px;
+  }
+  
+  .boglanish__input {
+    width: 410px;
+    height: 47px;
+  }
+  
+}
+
+@media only screen and (min-width: 520px) {
+  .sotb-olish__input {
+    display: flex;
+    border: 1px solid #EAEAEA;
+    width: 450px;
+    height: 47px;
+    padding: 12px 16px;
+  }
+  
+  .gg {
+    display: inline-block;
+    border: 1px solid #8585853f;
+    width: 420px;
+    height: 1px;
+    background-color:#8585853f ;
+  }
+  
+  .infiniti__pic {
+    width: 500px;
+  }
+  
+  .infinite__deck {
+    margin-top: 15px;
+  }
+  
+  
+  .foto__pic {
+    width: 390px;
+  }
+  
+  .foto__picc {
+    width: 110px;
+  }
+  
+  .foto__link {
+    margin-left: 130px;
+  }
+  
+  .lk {
+    margin-top: 15px;
+  }
+  
+  .plan__title {
+    width: 500px;
+  }
+  
+  .plan__pic {
+    margin-left: 100px;
+  }
+  
+  .plan__linkk {
+    margin-left: 120px;
+  }
+  
+  .rayon__image {
+    width: 480px;
+  }
+  
+  
+  
+  .rayon__toplam {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px !important;
+    column-gap: 80px;
+  }
+  
+  .j {
+    top: 215px;
+  }
+  
+  .i {
+    top: 220px;
+  }
+  
+  .h {
+    top: 500px;
+  }
+  
+  .q {
+    top: 350px;
+  }
+  
+  .m {
+    top: 360px;
+  }
+  
+  .u {
+    top: 720px;
+  }
+  
+  .g {
+    top: 470px;
+  }
+  
+  .s {
+    top: 480px;
+  }
+  
+  .boglanish__box {
+    width: 500px;
+  }
+  
+  .boglanish__pic {
+    width: 500px;
+  }
+  
+  .boshqa__pic {
+    width: 500px;
+  }
+  
+  .boglanish__input {
+    width: 450px;
+    height: 47px;
+  }
+  
+}
+
+@media only screen and (min-width: 560px) {
+  .sotb-olish__input {
+    display: flex;
+    border: 1px solid #EAEAEA;
+    width: 480px;
+    height: 47px;
+    padding: 12px 16px;
+  }
+  
+  .gg {
+    display: inline-block;
+    border: 1px solid #8585853f;
+    width: 450px;
+    height: 1px;
+    background-color:#8585853f ;
+  }
+  
+  .infiniti__pic {
+    width: 540px;
+  }
+  
+  .infinite__deck {
+    margin-top: 15px;
+  }
+  
+  
+  .foto__pic {
+    width: 410px;
+  }
+  
+  .foto__picc {
+    width: 120px;
+  }
+  
+  .foto__link {
+    margin-left: 150px;
+  }
+  
+  .lk {
+    margin-top: 15px;
+  }
+  
+  .plan__title {
+    width: 540px;
+  }
+  
+  .plan__pic {
+    margin-left: 140px;
+  }
+  
+  .plan__linkk {
+    margin-left: 150px;
+  }
+  
+  .rayon__image {
+    width: 520px;
+  }
+  
+  .sharxlar__link {
+    margin-left: 150px;
+  }
+  
+  
+  
+  .rayon__toplam {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px !important;
+    column-gap: 80px;
+  }
+  
+  .j {
+    top: 215px;
+  }
+  
+  .i {
+    top: 220px;
+  }
+  
+  .h {
+    top: 500px;
+  }
+  
+  .q {
+    top: 350px;
+  }
+  
+  .m {
+    top: 360px;
+  }
+  
+  .u {
+    top: 720px;
+  }
+  
+  .g {
+    top: 470px;
+  }
+  
+  .s {
+    top: 480px;
+  }
+  
+  .boglanish__box {
+    width: 540px;
+  }
+  
+  .boglanish__pic {
+    width: 540px;
+  }
+  
+  .boshqa__pic {
+    width: 540px;
+  }
+  
+  .boglanish__input {
+    width: 490px;
+    height: 47px;
+  }
+  
+}
+
+
+@media only screen and (min-width: 600px) {
+  .sotb-olish__input {
+    display: flex;
+    border: 1px solid #EAEAEA;
+    width: 480px;
+    height: 47px;
+    padding: 12px 16px;
+  }
+  
+  .gg {
+    display: inline-block;
+    border: 1px solid #8585853f;
+    width: 450px;
+    height: 1px;
+    background-color:#8585853f ;
+  }
+  
+  .infiniti__pic {
+    width: 540px;
+  }
+  
+  .infinite__deck {
+    margin-top: 15px;
+  }
+  
+  
+  .foto__pic {
+    width: 410px;
+  }
+  
+  .foto__picc {
+    width: 120px;
+  }
+  
+  .foto__link {
+    margin-left: 150px;
+  }
+  
+  .lk {
+    margin-top: 15px;
+  }
+  
+  .plan__title {
+    width: 540px;
+  }
+  
+  .plan__pic {
+    margin-left: 140px;
+  }
+  
+  .plan__linkk {
+    margin-left: 150px;
+  }
+  
+  .rayon__image {
+    width: 520px;
+  }
+  
+  .sharxlar__link {
+    margin-left: 150px;
+  }
+  
+  
+  
+  .rayon__toplam {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px !important;
+    column-gap: 80px;
+  }
+  
+  .j {
+    top: 215px;
+  }
+  
+  .i {
+    top: 220px;
+  }
+  
+  .h {
+    top: 500px;
+  }
+  
+  .q {
+    top: 350px;
+  }
+  
+  .m {
+    top: 360px;
+  }
+  
+  .u {
+    top: 720px;
+  }
+  
+  .g {
+    top: 470px;
+  }
+  
+  .s {
+    top: 480px;
+  }
+  
+  .boglanish__box {
+    width: 540px;
+  }
+  
+  .boglanish__pic {
+    width: 540px;
+  }
+  
+  .boshqa__pic {
+    width: 540px;
+  }
+  
+  .boglanish__input {
+    width: 490px;
+    height: 47px;
+  }
+  
+}
+
+
+@media only screen and (min-width: 640px) {
+  .sotb-olish__input {
+    display: flex;
+    border: 1px solid #EAEAEA;
+    width: 480px;
+    height: 47px;
+    padding: 12px 16px;
+  }
+  
+  .gg {
+    display: inline-block;
+    border: 1px solid #8585853f;
+    width: 550px;
+    height: 1px;
+    background-color:#8585853f ;
+  }
+  
+  .infiniti__pic {
+    width: 540px;
+  }
+  
+  .infinite__deck {
+    margin-top: 15px;
+  }
+  
+  
+  .foto__pic {
+    width: 410px;
+  }
+  
+  .foto__picc {
+    width: 120px;
+  }
+  
+  .foto__link {
+    margin-left: 150px;
+  }
+  
+  .lk {
+    margin-top: 15px;
+  }
+  
+  .plan__title {
+    width: 540px;
+  }
+  
+  .plan__pic {
+    margin-left: 140px;
+  }
+  
+  .plan__linkk {
+    margin-left: 150px;
+  }
+  
+  .rayon__image {
+    width: 520px;
+  }
+  
+  .sharxlar__link {
+    margin-left: 150px;
+  }
+  
+  .rayon__list {
+    column-gap: 100px !important;
+  }
+  
+  .hero__list {
+    column-gap: 60px !important;
+  }
+  
+  .rayon__toplam {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px !important;
+    column-gap: 80px;
+  }
+  
+  .j {
+    top: 215px;
+  }
+  
+  .i {
+    top: 220px;
+  }
+  
+  .h {
+    top: 500px;
+  }
+  
+  .q {
+    top: 350px;
+  }
+  
+  .m {
+    top: 360px;
+  }
+  
+  .u {
+    top: 720px;
+  }
+  
+  .g {
+    top: 470px;
+  }
+  
+  .s {
+    top: 480px;
+  }
+  
+  .boglanish__box {
+    width: 540px;
+  }
+  
+  .boglanish__pic {
+    width: 540px;
+  }
+  
+  .boshqa__pic {
+    width: 540px;
+  }
+  
+  .boglanish__input {
+    width: 490px;
+    height: 47px;
+  }
+  
+}
+
+@media only screen and (min-width: 680px) {
+  .sotb-olish__input {
+    display: flex;
+    border: 1px solid #EAEAEA;
+    width: 480px;
+    height: 47px;
+    padding: 12px 16px;
+  }
+  
+  .gg {
+    display: inline-block;
+    border: 1px solid #8585853f;
+    width: 550px;
+    height: 1px;
+    background-color:#8585853f ;
+  }
+  
+  .infiniti__pic {
+    width: 540px;
+  }
+  
+  .infinite__deck {
+    margin-top: 15px;
+  }
+  
+  
+  .foto__pic {
+    width: 410px;
+  }
+  
+  .foto__picc {
+    width: 120px;
+  }
+  
+  .foto__link {
+    margin-left: 150px;
+  }
+  
+  .lk {
+    margin-top: 15px;
+  }
+  
+  .plan__title {
+    width: 540px;
+  }
+  
+  .plan__pic {
+    margin-left: 140px;
+  }
+  
+  .plan__linkk {
+    margin-left: 150px;
+  }
+  
+  .rayon__image {
+    width: 520px;
+  }
+  
+  .sharxlar__link {
+    margin-left: 150px;
+  }
+  
+  .rayon__list {
+    column-gap: 100px !important;
+  }
+  
+  .hero__list {
+    column-gap: 60px !important;
+  }
+  
+  .rayon__toplam {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px !important;
+    column-gap: 80px;
+  }
+  
+  .j {
+    top: 215px;
+  }
+  
+  .i {
+    top: 220px;
+  }
+  
+  .h {
+    top: 500px;
+  }
+  
+  .q {
+    top: 350px;
+  }
+  
+  .m {
+    top: 360px;
+  }
+  
+  .u {
+    top: 720px;
+  }
+  
+  .g {
+    top: 470px;
+  }
+  
+  .s {
+    top: 480px;
+  }
+  
+  .boglanish__box {
+    width: 540px;
+  }
+  
+  .boglanish__pic {
+    width: 540px;
+  }
+  
+  .boshqa__pic {
+    width: 540px;
+  }
+  
+  .boglanish__input {
+    width: 490px;
+    height: 47px;
+  }
+  
+}
+
+@media only screen and (min-width: 720px) {
+  .sotb-olish__input {
+    display: flex;
+    border: 1px solid #EAEAEA;
+    width: 480px;
+    height: 47px;
+    padding: 12px 16px;
+  }
+  
+  .gg {
+    display: inline-block;
+    border: 1px solid #8585853f;
+    width: 550px;
+    height: 1px;
+    background-color:#8585853f ;
+  }
+  
+  .infiniti__pic {
+    width: 540px;
+  }
+  
+  .infinite__deck {
+    margin-top: 15px;
+  }
+  
+  
+  .foto__pic {
+    width: 410px;
+  }
+  
+  .foto__picc {
+    width: 120px;
+  }
+  
+  .foto__link {
+    margin-left: 150px;
+  }
+  
+  .lk {
+    margin-top: 15px;
+  }
+  
+  .plan__title {
+    width: 560px;
+    
+  }
+  
+  
+  .plan__pic {
+    margin-left: 150px;
+  }
+  
+  .plan__linkk {
+    margin-left: 150px;
+  }
+  
+  .rayon__image {
+    width: 520px;
+  }
+  
+  .sharxlar__link {
+    margin-left: 150px;
+  }
+  
+  .rayon__list {
+    column-gap: 100px !important;
+  }
+  
+  .hero__list {
+    column-gap: 80px !important;
+  }
+  
+  .rayon__toplam {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px !important;
+    column-gap: 80px;
+  }
+  
+  .j {
+    top: 215px;
+  }
+  
+  .i {
+    top: 220px;
+  }
+  
+  .h {
+    top: 500px;
+  }
+  
+  .q {
+    top: 350px;
+  }
+  
+  .m {
+    top: 360px;
+  }
+  
+  .u {
+    top: 720px;
+  }
+  
+  .g {
+    top: 470px;
+  }
+  
+  .s {
+    top: 480px;
+  }
+  
+  .boglanish__box {
+    width: 540px;
+  }
+  
+  .boglanish__pic {
+    width: 540px;
+  }
+  
+  .boshqa__pic {
+    width: 540px;
+  }
+  
+  .boglanish__input {
+    width: 490px;
+    height: 47px;
+  }
+  
+}
+
+@media only screen and (min-width: 760px) {
+  .sotb-olish__input {
+    display: flex;
+    border: 1px solid #EAEAEA;
+    width: 480px;
+    height: 47px;
+    padding: 12px 16px;
+  }
+  
+  .gg {
+    display: inline-block;
+    border: 1px solid #8585853f;
+    width: 550px;
+    height: 1px;
+    background-color:#8585853f ;
+  }
+  
+  .infiniti__pic {
+    width: 540px;
+  }
+  
+  .infinite__deck {
+    margin-top: 15px;
+  }
+  
+  
+  .foto__pic {
+    width: 410px;
+  }
+  
+  .foto__picc {
+    width: 120px;
+  }
+  
+  .foto__link {
+    margin-left: 150px;
+  }
+  
+  .lk {
+    margin-top: 15px;
+  }
+  
+  .plan__title {
+    width: 560px;
+    
+  }
+  
+  
+  .plan__pic {
+    margin-left: 150px;
+  }
+  
+  .plan__linkk {
+    margin-left: 150px;
+  }
+  
+  .rayon__image {
+    width: 520px;
+  }
+  
+  .sharxlar__link {
+    margin-left: 150px;
+  }
+  
+  .rayon__list {
+    column-gap: 100px !important;
+  }
+  
+  .hero__list {
+    column-gap: 80px !important;
+  }
+  
+  .rayon__toplam {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px !important;
+    column-gap: 80px;
+  }
+  
+  .j {
+    top: 215px;
+  }
+  
+  .i {
+    top: 220px;
+  }
+  
+  .h {
+    top: 500px;
+  }
+  
+  .q {
+    top: 350px;
+  }
+  
+  .m {
+    top: 360px;
+  }
+  
+  .u {
+    top: 720px;
+  }
+  
+  .g {
+    top: 470px;
+  }
+  
+  .s {
+    top: 480px;
+  }
+  
+  .boglanish__box {
+    width: 540px;
+  }
+  
+  .boglanish__pic {
+    width: 540px;
+  }
+  
+  .boshqa__pic {
+    width: 540px;
+  }
+  
+  .boglanish__input {
+    width: 490px;
+    height: 47px;
+  }
+  
+}
+
+@media only screen and (min-width: 800px) {
+  .sotb-olish__input {
+    display: flex;
+    border: 1px solid #EAEAEA;
+    width: 620px;
+    height: 47px;
+    padding: 12px 16px;
+  }
+  
+  .gg {
+    display: inline-block;
+    border: 1px solid #8585853f;
+    width: 700px;
+    height: 1px;
+    background-color:#8585853f ;
+  }
+  
+  .infiniti__pic {
+    width: 740px;
+  }
+  
+  .infinite__deck {
+    margin-top: 15px;
+  }
+  
+  
+  .foto__pic {
+    width: 500px;
+  }
+  
+  .foto__picc {
+    width: 220px;
+  }
+  
+  .foto__link {
+    margin-left: 250px;
+  }
+  
+  .lk {
+    margin-top: 15px;
+  }
+  
+  .plan__title {
+    width: 356px;
+  }
+  
+  .nmadrrr {
+    width: 725px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+  }
+  
+  
+  .plan__pic {
+    margin-left: 50px;
+  }
+  
+  .plan__linkk {
+    margin-left: 250px;
+  }
+  
+  .rayon__image {
+    width: 700px;
+  }
+  
+  .sharxlar__link {
+    margin-left: 150px;
+  }
+  
+  .rayon__list {
+    column-gap: 150px !important;
+  }
+  
+  .hero__list {
+    column-gap: 120px !important;
+  }
+  
+  .rayon__toplam {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px !important;
+    column-gap: 200px;
+  }
+  
+  .j {
+    top: 240px;
+  }
+  
+  .i {
+    top: 250px;
+  }
+  
+  .h {
+    top: 500px;
+  }
+  
+  .q {
+    top: 400px;
+  }
+  
+  .m {
+    top: 410px;
+  }
+  
+  .u {
+    top: 720px;
+  }
+  
+  .g {
+    top: 540px;
+  }
+  
+  .s {
+    top: 550px;
+  }
+  
+  .boglanish__box {
+    width: 700px;
+  }
+  
+  .boglanish__pic {
+    width: 700px;
+  }
+  
+  .boglanish__input {
+    width: 670px;
+    height: 47px;
+  }
+
+  .boshqa__list {
+    width: 350px;
+  }
+  
+  .boshqa__item {
+    flex-direction: row !important;
+    display: flex;
+    width: 730px;
+    flex-wrap: wrap;
+    column-gap: 30px;
+  }
+
+  .boshqa__pic {
+    width: 350px;
+  }
+  
+}
+
+@media only screen and (min-width: 840px) {
+  .sotb-olish__input {
+    display: flex;
+    border: 1px solid #EAEAEA;
+    width: 620px;
+    height: 47px;
+    padding: 12px 16px;
+  }
+  
+  .gg {
+    display: inline-block;
+    border: 1px solid #8585853f;
+    width: 700px;
+    height: 1px;
+    background-color:#8585853f ;
+  }
+  
+  .infiniti__pic {
+    width: 740px;
+  }
+  
+  .infinite__deck {
+    margin-top: 15px;
+  }
+  
+  
+  .foto__pic {
+    width: 500px;
+  }
+  
+  .foto__picc {
+    width: 220px;
+  }
+  
+  .foto__link {
+    margin-left: 250px;
+  }
+  
+  .lk {
+    margin-top: 15px;
+  }
+  
+  .plan__title {
+    width: 356px;
+  }
+  
+  .nmadrrr {
+    width: 725px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+  }
+  
+  
+  .plan__pic {
+    margin-left: 50px;
+  }
+  
+  .plan__linkk {
+    margin-left: 250px;
+  }
+  
+  .rayon__image {
+    width: 700px;
+  }
+  
+  .sharxlar__link {
+    margin-left: 150px;
+  }
+  
+  .rayon__list {
+    column-gap: 150px !important;
+  }
+  
+  .hero__list {
+    column-gap: 120px !important;
+  }
+  
+  .rayon__toplam {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px !important;
+    column-gap: 200px;
+  }
+  
+  .j {
+    top: 240px;
+  }
+  
+  .i {
+    top: 250px;
+  }
+  
+  .h {
+    top: 500px;
+  }
+  
+  .q {
+    top: 400px;
+  }
+  
+  .m {
+    top: 410px;
+  }
+  
+  .u {
+    top: 720px;
+  }
+  
+  .g {
+    top: 540px;
+  }
+  
+  .s {
+    top: 550px;
+  }
+  
+  .boglanish__box {
+    width: 700px;
+  }
+  
+  .boglanish__pic {
+    width: 700px;
+  }
+  
+  .boglanish__input {
+    width: 670px;
+    height: 47px;
+  }
+  
+
+  .boshqa__list {
+    width: 360px;
+  }
+  
+  .boshqa__item {
+    flex-direction: row !important;
+    display: flex;
+    width: 770px;
+    flex-wrap: wrap;
+    column-gap: 30px;
+  }
+
+  .boshqa__pic {
+    width: 360px;
+  }
+
+}
+
+
+@media only screen and (min-width: 880px) {
+  .sotb-olish__input {
+    display: flex;
+    border: 1px solid #EAEAEA;
+    width: 620px;
+    height: 47px;
+    padding: 12px 16px;
+  }
+  
+  .gg {
+    display: inline-block;
+    border: 1px solid #8585853f;
+    width: 700px;
+    height: 1px;
+    background-color:#8585853f ;
+  }
+  
+  .infiniti__pic {
+    width: 740px;
+  }
+  
+  .infinite__deck {
+    margin-top: 15px;
+  }
+  
+  
+  .foto__pic {
+    width: 500px;
+  }
+  
+  .foto__picc {
+    width: 220px;
+  }
+  
+  .foto__link {
+    margin-left: 250px;
+  }
+  
+  .lk {
+    margin-top: 15px;
+  }
+  
+  .plan__title {
+    width: 356px;
+  }
+  
+  .nmadrrr {
+    width: 750px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+  }
+  
+  
+  .plan__pic {
+    margin-left: 50px;
+  }
+  
+  .plan__linkk {
+    margin-left: 250px;
+  }
+  
+  .rayon__image {
+    width: 700px;
+  }
+  
+  .sharxlar__link {
+    margin-left: 150px;
+  }
+  
+  .rayon__list {
+    column-gap: 150px !important;
+  }
+  
+  .hero__list {
+    column-gap: 120px !important;
+  }
+  
+  .rayon__toplam {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px !important;
+    column-gap: 200px;
+  }
+  
+  .j {
+    top: 240px;
+  }
+  
+  .i {
+    top: 250px;
+  }
+  
+  .h {
+    top: 500px;
+  }
+  
+  .q {
+    top: 400px;
+  }
+  
+  .m {
+    top: 410px;
+  }
+  
+  .u {
+    top: 720px;
+  }
+  
+  .g {
+    top: 540px;
+  }
+  
+  .s {
+    top: 550px;
+  }
+  
+  .boglanish__box {
+    width: 700px;
+  }
+  
+  .boglanish__pic {
+    width: 700px;
+  }
+  
+  .boglanish__input {
+    width: 670px;
+    height: 47px;
+  }
+
+  .boshqa__list {
+    width: 360px;
+  }
+  
+  .boshqa__item {
+    flex-direction: row !important;
+    display: flex;
+    width: 770px;
+    flex-wrap: wrap;
+    column-gap: 30px;
+  }
+
+  .boshqa__pic {
+    width: 360px;
+  }
+  
+}
+
+@media only screen and (min-width: 920px) {
+  
+  .plan__text {
+    font-size: 40px !important;
+  }
+  
+  .sotibolish-text {
+    font-size: 40px !important;
+  }
+
+  .rayon__text {
+    font-size: 40px !important;
+  }
+
+  .sotb-olish__gg {
+    font-size: 40px !important;
+  }
+
+  .uy-olish__hh {
+    font-size: 40px !important;
+  }
+
+  .boshqa__text {
+    font-size: 40px !important;
+  }
+
+  .sotb-olish__input {
+    display: flex;
+    border: 1px solid #EAEAEA;
+    width: 620px;
+    height: 47px;
+    padding: 12px 16px;
+  }
+  
+  .gg {
+    display: inline-block;
+    border: 1px solid #8585853f;
+    width: 700px;
+    height: 1px;
+    background-color:#8585853f ;
+  }
+  
+  .infiniti__pic {
+    width: 740px;
+  }
+  
+  .infinite__deck {
+    margin-top: 15px;
+  }
+  
+  
+  .foto__pic {
+    width: 500px;
+  }
+  
+  .foto__picc {
+    width: 220px;
+  }
+  
+  .foto__link {
+    margin-left: 250px;
+  }
+  
+  .lk {
+    margin-top: 15px;
+  }
+  
+  .plan__title {
+    width: 356px;
+  }
+  
+  .nmadrrr {
+    width: 750px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+  }
+  
+  
+  .plan__pic {
+    margin-left: 50px;
+  }
+  
+  .plan__linkk {
+    margin-left: 250px;
+  }
+  
+  .rayon__image {
+    width: 700px;
+  }
+  
+  .sharxlar__link {
+    margin-left: 150px;
+  }
+  
+  .rayon__list {
+    column-gap: 150px !important;
+  }
+  
+  .hero__list {
+    column-gap: 120px !important;
+  }
+  
+  .rayon__toplam {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px !important;
+    column-gap: 200px;
+  }
+  
+  .j {
+    top: 240px;
+  }
+  
+  .i {
+    top: 250px;
+  }
+  
+  .h {
+    top: 500px;
+  }
+  
+  .q {
+    top: 400px;
+  }
+  
+  .m {
+    top: 410px;
+  }
+  
+  .u {
+    top: 720px;
+  }
+  
+  .g {
+    top: 540px;
+  }
+  
+  .s {
+    top: 550px;
+  }
+  
+  .boglanish__box {
+    width: 700px;
+  }
+  
+  .boglanish__pic {
+    width: 700px;
+  }
+  
+  .boshqa__pic {
+    width: 360px;
+  }
+  
+  .boglanish__input {
+    width: 670px;
+    height: 47px;
+  }
+  
+  .boshqa__list {
+    width: 360px;
+  }
+  
+  .boshqa__item {
+    flex-direction: row !important;
+    display: flex;
+    width: 900px;
+    flex-wrap: wrap;
+    column-gap: 100px;
+  }
+  
+}
+
+@media only screen and (min-width: 960px) {
+  
+  .plan__text {
+    font-size: 40px !important;
+  }
+  
+  .sotibolish-text {
+    font-size: 40px !important;
+  }
+
+  .rayon__text {
+    font-size: 40px !important;
+  }
+
+  .sotb-olish__gg {
+    font-size: 40px !important;
+  }
+
+  .uy-olish__hh {
+    font-size: 40px !important;
+  }
+
+  .boshqa__text {
+    font-size: 40px !important;
+  }
+
+  .sotb-olish__input {
+    display: flex;
+    border: 1px solid #EAEAEA;
+    width: 620px;
+    height: 47px;
+    padding: 12px 16px;
+  }
+  
+  .gg {
+    display: inline-block;
+    border: 1px solid #8585853f;
+    width: 700px;
+    height: 1px;
+    background-color:#8585853f ;
+  }
+  
+  .infiniti__pic {
+    width: 740px;
+  }
+  
+  .infinite__deck {
+    margin-top: 15px;
+  }
+  
+  
+  .foto__pic {
+    width: 500px;
+  }
+  
+  .foto__picc {
+    width: 220px;
+  }
+  
+  .foto__link {
+    margin-left: 250px;
+  }
+  
+  .lk {
+    margin-top: 15px;
+  }
+  
+  .plan__title {
+    width: 356px;
+  }
+  
+  .nmadrrr {
+    width: 750px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+  }
+  
+  
+  .plan__pic {
+    margin-left: 50px;
+  }
+  
+  .plan__linkk {
+    margin-left: 250px;
+  }
+  
+  .rayon__image {
+    width: 700px;
+  }
+  
+  .sharxlar__link {
+    margin-left: 150px;
+  }
+  
+  .rayon__list {
+    column-gap: 150px !important;
+  }
+  
+  .hero__list {
+    column-gap: 120px !important;
+  }
+  
+  .rayon__toplam {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px !important;
+    column-gap: 200px;
+  }
+  
+  .j {
+    top: 240px;
+  }
+  
+  .i {
+    top: 250px;
+  }
+  
+  .h {
+    top: 500px;
+  }
+  
+  .q {
+    top: 400px;
+  }
+  
+  .m {
+    top: 410px;
+  }
+  
+  .u {
+    top: 720px;
+  }
+  
+  .g {
+    top: 540px;
+  }
+  
+  .s {
+    top: 550px;
+  }
+  
+  .boglanish__box {
+    width: 700px;
+  }
+  
+  .boglanish__pic {
+    width: 700px;
+  }
+  
+  .boshqa__pic {
+    width: 360px;
+  }
+  
+  .boglanish__input {
+    width: 670px;
+    height: 47px;
+  }
+  
+  .boshqa__list {
+    width: 360px;
+  }
+  
+  .boshqa__item {
+    flex-direction: row !important;
+    display: flex;
+    width: 900px;
+    flex-wrap: wrap;
+    column-gap: 70px;
+  }
+  
+}
+
+@media only screen and (min-width: 1000px) {
+  
+  .plan__text {
+    font-size: 40px !important;
+  }
+  
+  .sotibolish-text {
+    font-size: 40px !important;
+  }
+
+  .rayon__text {
+    font-size: 40px !important;
+  }
+
+  .sotb-olish__gg {
+    font-size: 40px !important;
+  }
+
+  .uy-olish__hh {
+    font-size: 40px !important;
+  }
+
+  .boshqa__text {
+    font-size: 40px !important;
+  }
+
+  .sotb-olish__input {
+    display: flex;
+    border: 1px solid #EAEAEA;
+    width: 400px;
+    height: 47px;
+    padding: 12px 16px;
+  }
+  
+  .gg {
+    display: inline-block;
+    border: 1px solid #8585853f;
+    width: 900px;
+    height: 1px;
+    background-color:#8585853f ;
+  }
+  
+  .infiniti__pic {
+    width: 940px;
+  }
+  
+  .infinite__deck {
+    font-size: 20px !important;
+    margin-top: 15px;
+  }
+  
+  .infiniti__text {
+    font-size: 50px !important;
+  }
+  
+  
+  .foto__pic {
+    width: 700px;
+  }
+  
+  .foto__picc {
+    width: 260px;
+  }
+  
+  .foto__text {
+    font-size: 50px !important;
+  }
+  
+  .foto__link {
+    margin-left: 350px;
+  }
+  
+  .lk {
+    margin-top: 15px;
+  }
+  
+  .plan__title {
+    width: 400px;
+  }
+  
+  .nmadrrr {
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 100px;
+  }
+  
+  
+  .plan__pic {
+    margin-left: 50px;
+  }
+  
+  .plan__linkk {
+    margin-left: 350px;
+  }
+  
+  .rayon__image {
+    width: 900px;
+  }
+  
+  .sharxlar__link {
+    margin-left: 150px;
+  }
+  
+  .rayon__list {
+    column-gap:300px !important;
+  }
+  
+  .hero__list {
+    column-gap: 120px !important;
+  }
+  
+  .rayon__toplam {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px !important;
+    column-gap: 200px;
+    margin-left: 100px;
+  }
+  
+  .sharxlar__link {
+    margin-left: 350px;
+  }
+  
+  .j {
+    top: 240px;
+  }
+  
+  .i {
+    top: 250px;
+  }
+  
+  .h {
+    top: 500px;
+  }
+  
+  .q {
+    top: 400px;
+  }
+  
+  .m {
+    top: 410px;
+  }
+  
+  .u {
+    top: 720px;
+  }
+  
+  .g {
+    top: 540px;
+  }
+  
+  .s {
+    top: 550px;
+  }
+  
+  .boglanish__box {
+    width: 950px;
+  }
+  
+  .boglanish__pic {
+    width: 950px;
+    height: 370px;
+  }
+  
+  .boshqa__pic {
+    width: 400px;
+  }
+  
+  .boglanish__input {
+    width: 900px;
+    height: 47px;
+  }
+  
+  .boshqa__list {
+    width: 400px;
+  }
+  
+  .boshqa__item {
+    flex-direction: row !important;
+    display: flex;
+    width: 900px;
+    flex-wrap: wrap;
+    column-gap: 100px;
+  }
+  
+  .sotb-olish__form {
+    display: flex;
+  }
+  
+  .sotb-olish__deck {
+    font-size: 20px;
+  }
+  
+  .sotb-olish__text {
+    font-size: 30px !important;
+  }
+  
+  .glyu {
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+  
+}
+
+@media only screen and (min-width: 1040px) {
+  
+  
+  .sotb-olish__input {
+    display: flex;
+    border: 1px solid #EAEAEA;
+    width: 400px;
+    height: 47px;
+    padding: 12px 16px;
+  }
+  
+  .gg {
+    display: inline-block;
+    border: 1px solid #8585853f;
+    width: 900px;
+    height: 1px;
+    background-color:#8585853f ;
+  }
+  
+  .infiniti__pic {
+    width: 940px;
+  }
+  
+  .infinite__deck {
+    font-size: 20px !important;
+    margin-top: 15px;
+  }
+  
+  .infiniti__text {
+    font-size: 50px !important;
+  }
+  
+  
+  .foto__pic {
+    width: 700px;
+  }
+  
+  .foto__picc {
+    width: 260px;
+  }
+  
+  .foto__text {
+    font-size: 50px !important;
+  }
+  
+  .foto__link {
+    margin-left: 350px;
+  }
+  
+  .lk {
+    margin-top: 15px;
+  }
+  
+  .plan__title {
+    width: 400px;
+  }
+  
+  .nmadrrr {
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 100px;
+  }
+  
+  
+  .plan__pic {
+    margin-left: 50px;
+  }
+  
+  .plan__linkk {
+    margin-left: 350px;
+  }
+  
+  .rayon__image {
+    width: 900px;
+  }
+  
+  .sharxlar__link {
+    margin-left: 150px;
+  }
+  
+  .rayon__list {
+    column-gap:300px !important;
+  }
+  
+  .hero__list {
+    column-gap: 120px !important;
+  }
+  
+  .rayon__toplam {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px !important;
+    column-gap: 200px;
+    margin-left: 100px;
+  }
+  
+  .sharxlar__link {
+    margin-left: 350px;
+  }
+  
+  .j {
+    top: 240px;
+  }
+  
+  .i {
+    top: 250px;
+  }
+  
+  .h {
+    top: 500px;
+  }
+  
+  .q {
+    top: 400px;
+  }
+  
+  .m {
+    top: 410px;
+  }
+  
+  .u {
+    top: 720px;
+  }
+  
+  .g {
+    top: 540px;
+  }
+  
+  .s {
+    top: 550px;
+  }
+  
+  .boglanish__box {
+    width: 950px;
+  }
+  
+  .boglanish__pic {
+    width: 950px;
+    height: 370px;
+  }
+  
+  .boshqa__pic {
+    width: 400px;
+  }
+  
+  .boglanish__input {
+    width: 900px;
+    height: 47px;
+  }
+  
+  .boshqa__list {
+    width: 400px;
+  }
+  
+  .boshqa__item {
+    flex-direction: row !important;
+    display: flex;
+    width: 900px;
+    flex-wrap: wrap;
+    column-gap: 100px;
+  }
+  
+  .sotb-olish__form {
+    display: flex;
+  }
+  
+  .sotb-olish__deck {
+    font-size: 20px;
+  }
+  
+  .sotb-olish__text {
+    font-size: 30px !important;
+  }
+  
+  .glyu {
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+  
+}
+
+@media only screen and (min-width: 1080px) {
+  
+  .plan__text {
+    font-size: 40px !important;
+  }
+  
+  .sotibolish-text {
+    font-size: 40px !important;
+  }
+
+  .rayon__text {
+    font-size: 40px !important;
+  }
+
+  .sotb-olish__gg {
+    font-size: 40px !important;
+  }
+
+  .uy-olish__hh {
+    font-size: 40px !important;
+  }
+
+  .boshqa__text {
+    font-size: 40px !important;
+  }
+  
+  .sotb-olish__input {
+    display: flex;
+    border: 1px solid #EAEAEA;
+    width: 400px;
+    height: 47px;
+    padding: 12px 16px;
+  }
+  
+  .gg {
+    display: inline-block;
+    border: 1px solid #8585853f;
+    width: 900px;
+    height: 1px;
+    background-color:#8585853f ;
+  }
+  
+  .infiniti__pic {
+    width: 940px;
+  }
+  
+  .infinite__deck {
+    font-size: 20px !important;
+    margin-top: 15px;
+  }
+  
+  .infiniti__text {
+    font-size: 50px !important;
+  }
+  
+  
+  .foto__pic {
+    width: 700px;
+  }
+  
+  .foto__picc {
+    width: 260px;
+  }
+  
+  .foto__text {
+    font-size: 50px !important;
+  }
+  
+  .foto__link {
+    margin-left: 350px;
+  }
+  
+  .lk {
+    margin-top: 15px;
+  }
+  
+  .plan__title {
+    width: 400px;
+  }
+  
+  .nmadrrr {
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 100px;
+  }
+  
+  
+  .plan__pic {
+    margin-left: 50px;
+  }
+  
+  .plan__linkk {
+    margin-left: 350px;
+  }
+  
+  .rayon__image {
+    width: 900px;
+  }
+  
+  .sharxlar__link {
+    margin-left: 150px;
+  }
+  
+  .rayon__list {
+    column-gap:300px !important;
+  }
+  
+  .hero__list {
+    column-gap: 120px !important;
+  }
+  
+  .rayon__toplam {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px !important;
+    column-gap: 200px;
+    margin-left: 100px;
+  }
+  
+  .sharxlar__link {
+    margin-left: 350px;
+  }
+  
+  .j {
+    top: 240px;
+  }
+  
+  .i {
+    top: 250px;
+  }
+  
+  .h {
+    top: 500px;
+  }
+  
+  .q {
+    top: 400px;
+  }
+  
+  .m {
+    top: 410px;
+  }
+  
+  .u {
+    top: 720px;
+  }
+  
+  .g {
+    top: 540px;
+  }
+  
+  .s {
+    top: 550px;
+  }
+  
+  .boglanish__box {
+    width: 950px;
+  }
+  
+  .boglanish__pic {
+    width: 950px;
+    height: 370px;
+  }
+  
+  .boshqa__pic {
+    width: 400px;
+  }
+  
+  .boglanish__input {
+    width: 900px;
+    height: 47px;
+  }
+  
+  .boshqa__list {
+    width: 400px;
+  }
+  
+  .boshqa__item {
+    flex-direction: row !important;
+    display: flex;
+    width: 900px;
+    flex-wrap: wrap;
+    column-gap: 100px;
+  }
+  
+  .sotb-olish__form {
+    display: flex;
+  }
+  
+  .sotb-olish__deck {
+    font-size: 20px;
+  }
+  
+  .sotb-olish__text {
+    font-size: 30px !important;
+  }
+  
+  .glyu {
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+  
+}
+
+@media only screen and (min-width: 1120px) {
+  
+  .plan__text {
+    font-size: 40px !important;
+  }
+  
+  .sotibolish-text {
+    font-size: 40px !important;
+  }
+
+  .rayon__text {
+    font-size: 40px !important;
+  }
+
+  .sotb-olish__gg {
+    font-size: 40px !important;
+  }
+
+  .uy-olish__hh {
+    font-size: 40px !important;
+  }
+
+  .boshqa__text {
+    font-size: 40px !important;
+  }
+
+  .plan__text {
+    font-size: 40px !important;
+  }
+  
+  .sotibolish-text {
+    font-size: 40px !important;
+  }
+
+  .rayon__text {
+    font-size: 40px !important;
+  }
+
+  .sotb-olish__gg {
+    font-size: 40px !important;
+  }
+
+  .uy-olish__hh {
+    font-size: 40px !important;
+  }
+
+  .boshqa__text {
+    font-size: 40px !important;
+  }
+  
+  .sotb-olish__input {
+    display: flex;
+    border: 1px solid #EAEAEA;
+    width: 400px;
+    height: 47px;
+    padding: 12px 16px;
+  }
+  
+  .gg {
+    display: inline-block;
+    border: 1px solid #8585853f;
+    width: 900px;
+    height: 1px;
+    background-color:#8585853f ;
+  }
+  
+  .infiniti__pic {
+    width: 940px;
+  }
+  
+  .infinite__deck {
+    font-size: 20px !important;
+    margin-top: 15px;
+  }
+  
+  .infiniti__text {
+    font-size: 50px !important;
+  }
+  
+  
+  .foto__pic {
+    width: 700px;
+  }
+  
+  .foto__picc {
+    width: 260px;
+  }
+  
+  .foto__text {
+    font-size: 50px !important;
+  }
+  
+  .foto__link {
+    margin-left: 350px;
+  }
+  
+  .lk {
+    margin-top: 15px;
+  }
+  
+  .plan__title {
+    width: 400px;
+  }
+  
+  .nmadrrr {
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 100px;
+  }
+  
+  
+  .plan__pic {
+    margin-left: 50px;
+  }
+  
+  .plan__linkk {
+    margin-left: 350px;
+  }
+  
+  .rayon__image {
+    width: 900px;
+  }
+  
+  .sharxlar__link {
+    margin-left: 150px;
+  }
+  
+  .rayon__list {
+    column-gap:300px !important;
+  }
+  
+  .hero__list {
+    column-gap: 120px !important;
+  }
+  
+  .rayon__toplam {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px !important;
+    column-gap: 200px;
+    margin-left: 100px;
+  }
+  
+  .sharxlar__link {
+    margin-left: 350px;
+  }
+  
+  .j {
+    top: 240px;
+  }
+  
+  .i {
+    top: 250px;
+  }
+  
+  .h {
+    top: 500px;
+  }
+  
+  .q {
+    top: 400px;
+  }
+  
+  .m {
+    top: 410px;
+  }
+  
+  .u {
+    top: 720px;
+  }
+  
+  .g {
+    top: 540px;
+  }
+  
+  .s {
+    top: 550px;
+  }
+  
+  .boglanish__box {
+    width: 950px;
+  }
+  
+  .boglanish__pic {
+    width: 950px;
+    height: 370px;
+  }
+  
+  .boshqa__pic {
+    width: 400px;
+  }
+  
+  .boglanish__input {
+    width: 900px;
+    height: 47px;
+  }
+  
+  .boshqa__list {
+    width: 400px;
+  }
+  
+  .boshqa__item {
+    flex-direction: row !important;
+    display: flex;
+    width: 900px;
+    flex-wrap: wrap;
+    column-gap: 100px;
+  }
+  
+  .sotb-olish__form {
+    display: flex;
+  }
+  
+  .sotb-olish__deck {
+    font-size: 20px;
+  }
+  
+  .sotb-olish__text {
+    font-size: 30px !important;
+  }
+  
+  .glyu {
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+  
+}
+
+@media only screen and (min-width: 1160px) {
+  
+  .plan__text {
+    font-size: 40px !important;
+  }
+  
+  .sotibolish-text {
+    font-size: 40px !important;
+  }
+
+  .rayon__text {
+    font-size: 40px !important;
+  }
+
+  .sotb-olish__gg {
+    font-size: 40px !important;
+  }
+
+  .uy-olish__hh {
+    font-size: 40px !important;
+  }
+
+  .boshqa__text {
+    font-size: 40px !important;
+  }
+  
+  .sotb-olish__input {
+    display: flex;
+    border: 1px solid #EAEAEA;
+    width: 400px;
+    height: 47px;
+    padding: 12px 16px;
+  }
+  
+  .gg {
+    display: inline-block;
+    border: 1px solid #8585853f;
+    width: 900px;
+    height: 1px;
+    background-color:#8585853f ;
+  }
+  
+  .infiniti__pic {
+    width: 940px;
+  }
+  
+  .infinite__deck {
+    font-size: 20px !important;
+    margin-top: 15px;
+  }
+  
+  .infiniti__text {
+    font-size: 50px !important;
+  }
+  
+  
+  .foto__pic {
+    width: 700px;
+  }
+  
+  .foto__picc {
+    width: 260px;
+  }
+  
+  .foto__text {
+    font-size: 50px !important;
+  }
+  
+  .foto__link {
+    margin-left: 350px;
+  }
+  
+  .lk {
+    margin-top: 15px;
+  }
+  
+  .plan__title {
+    width: 400px;
+  }
+  
+  .nmadrrr {
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 100px;
+  }
+  
+  
+  .plan__pic {
+    margin-left: 50px;
+  }
+  
+  .plan__linkk {
+    margin-left: 350px;
+  }
+  
+  .rayon__image {
+    width: 900px;
+  }
+  
+  .sharxlar__link {
+    margin-left: 150px;
+  }
+  
+  .rayon__list {
+    column-gap:300px !important;
+  }
+  
+  .hero__list {
+    column-gap: 120px !important;
+  }
+  
+  .rayon__toplam {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px !important;
+    column-gap: 200px;
+    margin-left: 100px;
+  }
+  
+  .sharxlar__link {
+    margin-left: 350px;
+  }
+  
+  .j {
+    top: 240px;
+  }
+  
+  .i {
+    top: 250px;
+  }
+  
+  .h {
+    top: 500px;
+  }
+  
+  .q {
+    top: 400px;
+  }
+  
+  .m {
+    top: 410px;
+  }
+  
+  .u {
+    top: 720px;
+  }
+  
+  .g {
+    top: 540px;
+  }
+  
+  .s {
+    top: 550px;
+  }
+  
+  .boglanish__box {
+    width: 950px;
+  }
+  
+  .boglanish__pic {
+    width: 950px;
+    height: 370px;
+  }
+  
+  .boshqa__pic {
+    width: 400px;
+  }
+  
+  .boglanish__input {
+    width: 900px;
+    height: 47px;
+  }
+  
+  .boshqa__list {
+    width: 400px;
+  }
+  
+  .boshqa__item {
+    flex-direction: row !important;
+    display: flex;
+    width: 900px;
+    flex-wrap: wrap;
+    column-gap: 100px;
+  }
+  
+  .sotb-olish__form {
+    display: flex;
+  }
+  
+  .sotb-olish__deck {
+    font-size: 20px;
+  }
+  
+  .sotb-olish__text {
+    font-size: 30px !important;
+  }
+  
+  .glyu {
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+  
+}
+
+@media only screen and (min-width: 1200px) {
+  
+  
+  .sotb-olish__input {
+    display: flex;
+    border: 1px solid #EAEAEA;
+    width: 500px;
+    height: 47px;
+    padding: 12px 16px;
+  }
+  
+  .gg {
+    display: inline-block;
+    border: 1px solid #8585853f;
+    width: 1200px;
+    height: 1px;
+    background-color:#8585853f ;
+  }
+  
+  .infiniti__pic {
+    width: 1140px;
+  }
+  
+  .infinite__deck {
+    font-size: 20px !important;
+    margin-top: 15px;
+  }
+  
+  .infiniti__text {
+    font-size: 50px !important;
+  }
+  
+  
+  .foto__pic {
+    width: 850px;
+  }
+  
+  .foto__picc {
+    width: 300px;
+  }
+  
+  .foto__text {
+    font-size: 50px !important;
+  }
+  
+  .foto__link {
+    margin-left: 450px;
+  }
+  
+  .lk {
+    margin-top: 15px;
+  }
+  
+  .plan__title {
+    width: 500px;
+  }
+  
+  .nmadrrr {
+    width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 100px;
+  }
+  
+  
+  .plan__pic {
+    margin-left: 100px;
+  }
+  
+  .plan__linkk {
+    margin-left: 450px;
+  }
+  
+  .rayon__image {
+    width: 1100px;
+  }
+  
+  .sharxlar__link {
+    margin-left: 150px;
+  }
+  
+  .rayon__list {
+    column-gap:400px !important;
+  }
+  
+  .hero__list {
+    column-gap: 120px !important;
+  }
+  
+  .rayon__toplam {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px !important;
+    column-gap: 200px;
+    margin-left: 80px;
+  }
+  
+  .sharxlar__link {
+    margin-left: 450px;
+  }
+  
+  .j {
+    top: 240px;
+  }
+  
+  .i {
+    top: 250px;
+  }
+  
+  .h {
+    top: 500px;
+  }
+  
+  .q {
+    top: 400px;
+  }
+  
+  .m {
+    top: 410px;
+  }
+  
+  .u {
+    top: 720px;
+  }
+  
+  .g {
+    top: 540px;
+  }
+  
+  .s {
+    top: 550px;
+  }
+  
+  .boglanish__box {
+    width: 1150px;
+  }
+  
+  .boglanish__pic {
+    width: 500px;
+    height: 600px;
+  }
+
+  .boglanish__box {
+    display: flex;
+  }
+  
+  .boshqa__pic {
+    width: 400px;
+  }
+  
+  .boglanish__input {
+    width: 600px;
+    height: 47px;
+  }
+
+  .boglanish__link {
+    margin-top: 400px;
+    display: none;   
+  }
+  
+  .boshqa__list {
+    width: 400px;
+  }
+  
+  .boshqa__item {
+    flex-direction: row !important;
+    display: flex;
+    width: 1100px;
+    flex-wrap: wrap;
+    column-gap: 250px;
+  }
+  
+  .sotb-olish__form {
+    display: flex;
+  }
+  
+  .sotb-olish__deck {
+    font-size: 20px;
+  }
+  
+  .sotb-olish__text {
+    font-size: 30px !important;
+  }
+  
+  .glyu {
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+  
+  .plan__text {
+    font-size: 40px !important;
+  }
+  
+  .sotibolish-text {
+    font-size: 40px !important;
+  }
+
+  .rayon__text {
+    font-size: 40px !important;
+  }
+
+  .sotb-olish__gg {
+    font-size: 40px !important;
+  }
+
+  .uy-olish__hh {
+    font-size: 40px !important;
+  }
+
+  .boshqa__text {
+    font-size: 40px !important;
+  }
+
+}
+
+@media only screen and (min-width: 1240px) {
+  
+  
+  .sotb-olish__input {
+    display: flex;
+    border: 1px solid #EAEAEA;
+    width: 500px;
+    height: 47px;
+    padding: 12px 16px;
+  }
+  
+  .gg {
+    display: inline-block;
+    border: 1px solid #8585853f;
+    width: 1200px;
+    height: 1px;
+    background-color:#8585853f ;
+  }
+  
+  .infiniti__pic {
+    width: 1140px;
+  }
+  
+  .infinite__deck {
+    font-size: 20px !important;
+    margin-top: 15px;
+  }
+  
+  .infiniti__text {
+    font-size: 50px !important;
+  }
+  
+  
+  .foto__pic {
+    width: 850px;
+  }
+  
+  .foto__picc {
+    width: 300px;
+  }
+  
+  .foto__text {
+    font-size: 50px !important;
+  }
+  
+  .foto__link {
+    margin-left: 450px;
+  }
+  
+  .lk {
+    margin-top: 15px;
+  }
+  
+  .plan__title {
+    width: 500px;
+  }
+  
+  .nmadrrr {
+    width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 100px;
+  }
+  
+  
+  .plan__pic {
+    margin-left: 100px;
+  }
+  
+  .plan__linkk {
+    margin-left: 450px;
+  }
+  
+  .rayon__image {
+    width: 1100px;
+  }
+  
+  .sharxlar__link {
+    margin-left: 150px;
+  }
+  
+  .rayon__list {
+    column-gap:400px !important;
+  }
+  
+  .hero__list {
+    column-gap: 120px !important;
+  }
+  
+  .rayon__toplam {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px !important;
+    column-gap: 200px;
+    margin-left: 80px;
+  }
+  
+  .sharxlar__link {
+    margin-left: 450px;
+  }
+  
+  .j {
+    top: 240px;
+  }
+  
+  .i {
+    top: 250px;
+  }
+  
+  .h {
+    top: 500px;
+  }
+  
+  .q {
+    top: 400px;
+  }
+  
+  .m {
+    top: 410px;
+  }
+  
+  .u {
+    top: 720px;
+  }
+  
+  .g {
+    top: 540px;
+  }
+  
+  .s {
+    top: 550px;
+  }
+  
+  .boglanish__box {
+    width: 1150px;
+  }
+  
+  .boglanish__pic {
+    width: 500px;
+    height: 600px;
+  }
+
+  .boglanish__box {
+    display: flex;
+  }
+  
+  .boshqa__pic {
+    width: 400px;
+  }
+  
+  .boglanish__input {
+    width: 600px;
+    height: 47px;
+  }
+
+  .boglanish__link {
+    margin-top: 400px;
+    display: none;   
+  }
+  
+  .boshqa__list {
+    width: 400px;
+  }
+  
+  .boshqa__item {
+    flex-direction: row !important;
+    display: flex;
+    width: 1100px;
+    flex-wrap: wrap;
+    column-gap: 250px;
+  }
+  
+  .sotb-olish__form {
+    display: flex;
+  }
+  
+  .sotb-olish__deck {
+    font-size: 20px;
+  }
+  
+  .sotb-olish__text {
+    font-size: 30px !important;
+  }
+  
+  .glyu {
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+  
+  .plan__text {
+    font-size: 40px !important;
+  }
+  
+  .sotibolish-text {
+    font-size: 40px !important;
+  }
+
+  .rayon__text {
+    font-size: 40px !important;
+  }
+
+  .sotb-olish__gg {
+    font-size: 40px !important;
+  }
+
+  .uy-olish__hh {
+    font-size: 40px !important;
+  }
+
+  .boshqa__text {
+    font-size: 40px !important;
+  }
+
+}
+
+@media only screen and (min-width: 1280px) {
+  
+  
+  .sotb-olish__input {
+    display: flex;
+    border: 1px solid #EAEAEA;
+    width: 500px;
+    height: 47px;
+    padding: 12px 16px;
+  }
+  
+  .gg {
+    display: inline-block;
+    border: 1px solid #8585853f;
+    width: 1200px;
+    height: 1px;
+    background-color:#8585853f ;
+  }
+  
+  .infiniti__pic {
+    width: 1140px;
+  }
+  
+  .infinite__deck {
+    font-size: 20px !important;
+    margin-top: 15px;
+  }
+  
+  .infiniti__text {
+    font-size: 50px !important;
+  }
+  
+  
+  .foto__pic {
+    width: 850px;
+  }
+  
+  .foto__picc {
+    width: 300px;
+  }
+  
+  .foto__text {
+    font-size: 50px !important;
+  }
+  
+  .foto__link {
+    margin-left: 450px;
+  }
+  
+  .lk {
+    margin-top: 15px;
+  }
+  
+  .plan__title {
+    width: 500px;
+  }
+  
+  .nmadrrr {
+    width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 100px;
+  }
+  
+  
+  .plan__pic {
+    margin-left: 100px;
+  }
+  
+  .plan__linkk {
+    margin-left: 450px;
+  }
+  
+  .rayon__image {
+    width: 1100px;
+  }
+  
+  .sharxlar__link {
+    margin-left: 150px;
+  }
+  
+  .rayon__list {
+    column-gap:400px !important;
+  }
+  
+  .hero__list {
+    column-gap: 120px !important;
+  }
+  
+  .rayon__toplam {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px !important;
+    column-gap: 200px;
+    margin-left: 80px;
+  }
+  
+  .sharxlar__link {
+    margin-left: 450px;
+  }
+  
+  .j {
+    top: 240px;
+  }
+  
+  .i {
+    top: 250px;
+  }
+  
+  .h {
+    top: 500px;
+  }
+  
+  .q {
+    top: 400px;
+  }
+  
+  .m {
+    top: 410px;
+  }
+  
+  .u {
+    top: 720px;
+  }
+  
+  .g {
+    top: 540px;
+  }
+  
+  .s {
+    top: 550px;
+  }
+  
+  .boglanish__box {
+    width: 1150px;
+  }
+  
+  .boglanish__pic {
+    width: 500px;
+    height: 600px;
+  }
+
+  .boglanish__box {
+    display: flex;
+  }
+  
+  .boshqa__pic {
+    width: 400px;
+  }
+  
+  .boglanish__input {
+    width: 600px;
+    height: 47px;
+  }
+
+  .boglanish__link {
+    margin-top: 400px;
+    display: none;   
+  }
+  
+  .boshqa__list {
+    width: 400px;
+  }
+  
+  .boshqa__item {
+    flex-direction: row !important;
+    display: flex;
+    width: 1100px;
+    flex-wrap: wrap;
+    column-gap: 250px;
+  }
+  
+  .sotb-olish__form {
+    display: flex;
+  }
+  
+  .sotb-olish__deck {
+    font-size: 20px;
+  }
+  
+  .sotb-olish__text {
+    font-size: 30px !important;
+  }
+  
+  .glyu {
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+  
+  .plan__text {
+    font-size: 40px !important;
+  }
+  
+  .sotibolish-text {
+    font-size: 40px !important;
+  }
+
+  .rayon__text {
+    font-size: 40px !important;
+  }
+
+  .sotb-olish__gg {
+    font-size: 40px !important;
+  }
+
+  .uy-olish__hh {
+    font-size: 40px !important;
+  }
+
+  .boshqa__text {
+    font-size: 40px !important;
+  }
+
+}
+
+@media only screen and (min-width: 1320px) {
+  
+  
+  .sotb-olish__input {
+    display: flex;
+    border: 1px solid #EAEAEA;
+    width: 500px;
+    height: 47px;
+    padding: 12px 16px;
+  }
+  
+  .gg {
+    display: inline-block;
+    border: 1px solid #8585853f;
+    width: 1200px;
+    height: 1px;
+    background-color:#8585853f ;
+  }
+  
+  .infiniti__pic {
+    width: 1140px;
+  }
+  
+  .infinite__deck {
+    font-size: 20px !important;
+    margin-top: 15px;
+  }
+  
+  .infiniti__text {
+    font-size: 50px !important;
+  }
+  
+  
+  .foto__pic {
+    width: 850px;
+  }
+  
+  .foto__picc {
+    width: 300px;
+  }
+  
+  .foto__text {
+    font-size: 50px !important;
+  }
+  
+  .foto__link {
+    margin-left: 450px;
+  }
+  
+  .lk {
+    margin-top: 15px;
+  }
+  
+  .plan__title {
+    width: 500px;
+  }
+  
+  .nmadrrr {
+    width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 100px;
+  }
+  
+  
+  .plan__pic {
+    margin-left: 100px;
+  }
+  
+  .plan__linkk {
+    margin-left: 450px;
+  }
+  
+  .rayon__image {
+    width: 1100px;
+  }
+  
+  .sharxlar__link {
+    margin-left: 150px;
+  }
+  
+  .rayon__list {
+    column-gap:400px !important;
+  }
+  
+  .hero__list {
+    column-gap: 120px !important;
+  }
+  
+  .rayon__toplam {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px !important;
+    column-gap: 200px;
+    margin-left: 80px;
+  }
+  
+  .sharxlar__link {
+    margin-left: 450px;
+  }
+  
+  .j {
+    top: 240px;
+  }
+  
+  .i {
+    top: 250px;
+  }
+  
+  .h {
+    top: 500px;
+  }
+  
+  .q {
+    top: 400px;
+  }
+  
+  .m {
+    top: 410px;
+  }
+  
+  .u {
+    top: 720px;
+  }
+  
+  .g {
+    top: 540px;
+  }
+  
+  .s {
+    top: 550px;
+  }
+  
+  .boglanish__box {
+    width: 1150px;
+  }
+  
+  .boglanish__pic {
+    width: 500px;
+    height: 600px;
+  }
+
+  .boglanish__box {
+    display: flex;
+  }
+  
+  .boshqa__pic {
+    width: 400px;
+  }
+  
+  .boglanish__input {
+    width: 600px;
+    height: 47px;
+  }
+
+  .boglanish__link {
+    margin-top: 400px;
+    display: none;   
+  }
+  
+  .boshqa__list {
+    width: 400px;
+  }
+  
+  .boshqa__item {
+    flex-direction: row !important;
+    display: flex;
+    width: 1100px;
+    flex-wrap: wrap;
+    column-gap: 250px;
+  }
+  
+  .sotb-olish__form {
+    display: flex;
+  }
+  
+  .sotb-olish__deck {
+    font-size: 20px;
+  }
+  
+  .sotb-olish__text {
+    font-size: 30px !important;
+  }
+  
+  .glyu {
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+  
+  .plan__text {
+    font-size: 40px !important;
+  }
+  
+  .sotibolish-text {
+    font-size: 40px !important;
+  }
+
+  .rayon__text {
+    font-size: 40px !important;
+  }
+
+  .sotb-olish__gg {
+    font-size: 40px !important;
+  }
+
+  .uy-olish__hh {
+    font-size: 40px !important;
+  }
+
+  .boshqa__text {
+    font-size: 40px !important;
+  }
+
+}
+
+
+@media only screen and (min-width: 1360px) {
+  
+  
+  .sotb-olish__input {
+    display: flex;
+    border: 1px solid #EAEAEA;
+    width: 500px;
+    height: 47px;
+    padding: 12px 16px;
+  }
+  
+  .gg {
+    display: inline-block;
+    border: 1px solid #8585853f;
+    width: 1200px;
+    height: 1px;
+    background-color:#8585853f ;
+  }
+  
+  .infiniti__pic {
+    width: 1140px;
+  }
+  
+  .infinite__deck {
+    font-size: 20px !important;
+    margin-top: 15px;
+  }
+  
+  .infiniti__text {
+    font-size: 50px !important;
+  }
+  
+  
+  .foto__pic {
+    width: 850px;
+  }
+  
+  .foto__picc {
+    width: 300px;
+  }
+  
+  .foto__text {
+    font-size: 50px !important;
+  }
+  
+  .foto__link {
+    margin-left: 450px;
+  }
+  
+  .lk {
+    margin-top: 15px;
+  }
+  
+  .plan__title {
+    width: 500px;
+  }
+  
+  .nmadrrr {
+    width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 100px;
+  }
+  
+  
+  .plan__pic {
+    margin-left: 100px;
+  }
+  
+  .plan__linkk {
+    margin-left: 450px;
+  }
+  
+  .rayon__image {
+    width: 1100px;
+  }
+  
+  .sharxlar__link {
+    margin-left: 150px;
+  }
+  
+  .rayon__list {
+    column-gap:400px !important;
+  }
+  
+  .hero__list {
+    column-gap: 120px !important;
+  }
+  
+  .rayon__toplam {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px !important;
+    column-gap: 200px;
+    margin-left: 80px;
+  }
+  
+  .sharxlar__link {
+    margin-left: 450px;
+  }
+  
+  .j {
+    top: 240px;
+  }
+  
+  .i {
+    top: 250px;
+  }
+  
+  .h {
+    top: 500px;
+  }
+  
+  .q {
+    top: 400px;
+  }
+  
+  .m {
+    top: 410px;
+  }
+  
+  .u {
+    top: 720px;
+  }
+  
+  .g {
+    top: 540px;
+  }
+  
+  .s {
+    top: 550px;
+  }
+  
+  .boglanish__box {
+    width: 1150px;
+  }
+  
+  .boglanish__pic {
+    width: 500px;
+    height: 600px;
+  }
+
+  .boglanish__box {
+    display: flex;
+  }
+  
+  .boshqa__pic {
+    width: 400px;
+  }
+  
+  .boglanish__input {
+    width: 600px;
+    height: 47px;
+  }
+
+  .boglanish__link {
+    margin-top: 400px;
+    display: none;   
+  }
+  
+  .boshqa__list {
+    width: 400px;
+  }
+  
+  .boshqa__item {
+    flex-direction: row !important;
+    display: flex;
+    width: 1100px;
+    flex-wrap: wrap;
+    column-gap: 250px;
+  }
+  
+  .sotb-olish__form {
+    display: flex;
+  }
+  
+  .sotb-olish__deck {
+    font-size: 20px;
+  }
+  
+  .sotb-olish__text {
+    font-size: 30px !important;
+  }
+  
+  .glyu {
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+  
+  .plan__text {
+    font-size: 40px !important;
+  }
+  
+  .sotibolish-text {
+    font-size: 40px !important;
+  }
+
+  .rayon__text {
+    font-size: 40px !important;
+  }
+
+  .sotb-olish__gg {
+    font-size: 40px !important;
+  }
+
+  .uy-olish__hh {
+    font-size: 40px !important;
+  }
+
+  .boshqa__text {
+    font-size: 40px !important;
+  }
+
+}
+
+@media only screen and (min-width: 1400px) {
+  
+  
+  .sotb-olish__input {
+    display: flex;
+    border: 1px solid #EAEAEA;
+    width: 500px;
+    height: 47px;
+    padding: 12px 16px;
+  }
+  
+  .gg {
+    display: inline-block;
+    border: 1px solid #8585853f;
+    width: 1200px;
+    height: 1px;
+    background-color:#8585853f ;
+  }
+  
+  .infiniti__pic {
+    width: 1300px;
+  }
+  
+  .infinite__deck {
+    font-size: 20px !important;
+    margin-top: 15px;
+  }
+  
+  .infiniti__text {
+    font-size: 50px !important;
+  }
+  
+  
+  .foto__pic {
+    width: 900px;
+  }
+  
+  .foto__picc {
+    width: 400px;
+  }
+  
+  .foto__text {
+    font-size: 50px !important;
+  }
+  
+  .foto__link {
+    margin-left: 550px;
+  }
+  
+  .lk {
+    margin-top: 15px;
+  }
+  
+  .plan__title {
+    width: 500px;
+  }
+  
+  .nmadrrr {
+    width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 100px;
+  }
+  
+  
+  .plan__pic {
+    margin-left: 100px;
+  }
+  
+  .plan__linkk {
+    margin-left: 450px;
+  }
+  
+  .rayon__image {
+    width: 1300px;
+  }
+  
+  .sharxlar__link {
+    margin-left: 150px;
+  }
+  
+  .rayon__list {
+    column-gap:400px !important;
+  }
+  
+  .hero__list {
+    column-gap: 120px !important;
+  }
+  
+  .rayon__toplam {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px !important;
+    column-gap: 200px;
+    margin-left: 80px;
+  }
+  
+  .sharxlar__link {
+    margin-left: 450px;
+  }
+  
+  .j {
+    top: 240px;
+  }
+  
+  .i {
+    top: 250px;
+  }
+  
+  .h {
+    top: 500px;
+  }
+  
+  .q {
+    top: 400px;
+  }
+  
+  .m {
+    top: 410px;
+  }
+  
+  .u {
+    top: 720px;
+  }
+  
+  .g {
+    top: 540px;
+  }
+  
+  .s {
+    top: 550px;
+  }
+  
+  .boglanish__box {
+    width: 1300px;
+  }
+  
+  .boglanish__pic {
+    width: 500px;
+    height: 600px;
+  }
+
+  .boglanish__box {
+    display: flex;
+  }
+  
+  .boshqa__pic {
+    width: 400px;
+  }
+  
+  .boglanish__input {
+    width: 700px;
+    height: 47px;
+  }
+
+  .boglanish__link {
+    margin-top: 400px;
+    display: none;   
+  }
+  
+  .boshqa__list {
+    width: 400px;
+  }
+  
+  .boshqa__item {
+    flex-direction: row !important;
+    display: flex;
+    width: 1100px;
+    flex-wrap: wrap;
+    column-gap: 300px;
+  }
+  
+  .sotb-olish__form {
+    display: flex;
+  }
+  
+  .sotb-olish__deck {
+    font-size: 20px;
+  }
+  
+  .sotb-olish__text {
+    font-size: 30px !important;
+  }
+  
+  .glyu {
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+  
+  .plan__text {
+    font-size: 40px !important;
+  }
+  
+  .sotibolish-text {
+    font-size: 40px !important;
+  }
+
+  .rayon__text {
+    font-size: 40px !important;
+  }
+
+  .sotb-olish__gg {
+    font-size: 40px !important;
+  }
+
+  .uy-olish__hh {
+    font-size: 40px !important;
+  }
+
+  .boshqa__text {
+    font-size: 40px !important;
   }
 
 }
